@@ -1,0 +1,73 @@
+worker.js onmessage() captured an uncaught exception: TypeError: SDL2.ctx is undefined wasm_sdl_threads.worker.js:1:3104
+94338@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:36451
+_emscripten_asm_const_int@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:151650
+instrumentWasmImports/</imports[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:238995
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[1183]:0xe72fa
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[1044]:0xc5e71
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[979]:0xa3263
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[1478]:0x10fa96
+instrumentWasmExports/</ret[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:239670
+createExportWrapper/<@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:27569
+invoke_vi@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:272321
+instrumentWasmImports/</imports[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:238995
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[292]:0x70ca
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[300]:0x8ac0
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[1480]:0x10fc00
+instrumentWasmExports/</ret[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:239670
+createExportWrapper/<@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:27569
+invoke_ii@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:272632
+instrumentWasmImports/</imports[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:238995
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[293]:0x7d2c
+instrumentWasmExports/</ret[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:239670
+createExportWrapper/<@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:27569
+___call_main@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:47487
+instrumentWasmImports/</imports[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:238995
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[1471]:0x10f8b5
+@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:wasm-function[1480]:0x10fc00
+instrumentWasmExports/</ret[x]@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:239670
+createExportWrapper/<@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:27569
+invokeEntryPoint/<@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:46775
+invokeEntryPoint@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1:46796
+self.onmessage@http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.worker.js:1:1985
+wasm_sdl_threads.worker.js:1:3185
+Pthread 0x51c138 sent an error! http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1: TypeError: SDL2.ctx is undefined index-wasm.html:186:21
+    printErr http://localhost:6931/index-wasm.html:186
+    onerror http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+[post-exception status] Exception thrown, see JavaScript console index-wasm.html:186:21
+    printErr http://localhost:6931/index-wasm.html:186
+    setStatus http://localhost:6931/index-wasm.html:245
+    onerror http://localhost:6931/index-wasm.html:242
+Uncaught 
+error { target: Worker, isTrusted: true, message: "TypeError: SDL2.ctx is undefined", filename: "http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js", lineno: 1, colno: 36451, srcElement: Worker, eventPhase: 0, bubbles: false, cancelable: true, … }
+wasm_sdl_threads.js:1:45259
+TypeError: SDL2.ctx is undefined wasm_sdl_threads.js:1:36451
+    94338 http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    _emscripten_asm_const_int http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:946938
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:810609
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:668259
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:1112726
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    createExportWrapper http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    invoke_vi http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:28874
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:35520
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:1113088
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    createExportWrapper http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    invoke_ii http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:32044
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    createExportWrapper http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    ___call_main http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:1112245
+    <anonymous> http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.wasm:1113088
+    x http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    createExportWrapper http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    invokeEntryPoint http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    invokeEntryPoint http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.js:1
+    onmessage http://localhost:6931/target/wasm32-unknown-emscripten/release/deps/wasm_sdl_threads.worker.js:1
