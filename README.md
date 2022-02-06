@@ -47,3 +47,8 @@ host: x86_64-unknown-linux-gnu
 release: 1.59.0-nightly
 LLVM version: 13.0.0
 ```
+
+There is also a version showing the same problem using C instead of Rust.  That
+code is over at [c_example/]().  See the [Makefile](), and try running `make
+run` to see the failing case, and `make run-single` for the successful case.
+

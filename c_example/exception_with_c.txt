@@ -1,0 +1,28 @@
+worker.js onmessage() captured an uncaught exception: TypeError: GLctx is undefined t_test.worker.js:181:8
+emscriptenWebGLGet@http://localhost:6931/t_test.js:7321:16
+_emscripten_glGetIntegerv@http://localhost:6931/t_test.js:7441:20
+instrumentWasmImports/</imports[x]@http://localhost:6931/t_test.js:9267:24
+@http://localhost:6931/t_test.wasm:wasm-function[1246]:0x1cabc2
+@http://localhost:6931/t_test.wasm:wasm-function[765]:0xedb35
+@http://localhost:6931/t_test.wasm:wasm-function[723]:0xd9d42
+@http://localhost:6931/t_test.wasm:wasm-function[251]:0x3a94
+instrumentWasmExports/</ret[x]@http://localhost:6931/t_test.js:9290:24
+createExportWrapper/<@http://localhost:6931/t_test.js:1318:20
+___call_main@http://localhost:6931/t_test.js:2111:24
+instrumentWasmImports/</imports[x]@http://localhost:6931/t_test.js:9267:24
+@http://localhost:6931/t_test.wasm:wasm-function[1677]:0x21289a
+@http://localhost:6931/t_test.wasm:wasm-function[1686]:0x212ea8
+instrumentWasmExports/</ret[x]@http://localhost:6931/t_test.js:9290:24
+createExportWrapper/<@http://localhost:6931/t_test.js:1318:20
+invokeEntryPoint/<@http://localhost:6931/t_test.js:2070:21
+invokeEntryPoint@http://localhost:6931/t_test.js:2071:3
+self.onmessage@http://localhost:6931/t_test.worker.js:135:29
+t_test.worker.js:182:28
+Pthread 0x5156f0 sent an error! http://localhost:6931/t_test.js:7321: TypeError: GLctx is undefined index_t_test.html:1246:19
+[post-exception status] Exception thrown, see JavaScript console index_t_test.html:1246:19
+Uncaught 
+error { target: Worker, isTrusted: true, message: "TypeError: GLctx is undefined", filename: "http://localhost:6931/t_test.js", lineno: 7321, colno: 16, srcElement: Worker, eventPhase: 0, bubbles: false, cancelable: true, … }
+t_test.js:2009:4
+TypeError: GLctx is undefined t_test.js:7321:16
+
+
